@@ -11,5 +11,7 @@ public:
 	void PrintNodes();
 	Node* FindNode(int value);
 	void InsertNode(Node* node, int value);
-	void DeleteNode(Node* node);
+	int DeleteNode(Node* node);
+	Node* GetLast();
+	void ClearList();
 };
